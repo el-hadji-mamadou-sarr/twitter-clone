@@ -1,6 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { GoPerson, BsTwitter } from "react-icons/all";
+import { GoPerson} from "react-icons/go";
+import { BsTwitter } from "react-icons/bs";
 function Notifications() {
   const { data } = useSelector((state) => state.currentProfile);
   const notifications = data.notifications;

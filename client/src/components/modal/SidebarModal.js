@@ -2,10 +2,13 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Redirect, Link } from "react-router-dom";
 import { signOut } from "../../redux/actions/currentProfileActions";
+import { UserData } from "../../utils/test-data";
 function SidebarModal() {
   const isOpened = useSelector((state) => state.modal.sidebarModal);
-  const { data } = useSelector((state) => state.currentProfile);
+  // const { data } = useSelector((state) => state.currentProfile);
 
+  //test
+  const data = UserData;
   const dispatch = useDispatch();
 
   const handleClick = async () => {

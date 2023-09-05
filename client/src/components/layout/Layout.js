@@ -29,11 +29,11 @@ function Layout({ children }) {
       <SidebarLeft />
       <main id="main" className="main flex--2">
         <Header />
-        {children}
+        {/* {children} */}
       </main>
-      <MiniTweetBtn />
+      {/* <MiniTweetBtn />
       <SidebarRight />
-      <TweetModal />
+      <TweetModal /> */}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaTwitter } from "react-icons/all";
+import { FaTwitter } from "react-icons/fa";
 
 function Avatar({ username, avatar, size }) {
   return (

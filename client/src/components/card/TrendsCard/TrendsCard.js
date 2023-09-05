@@ -1,5 +1,5 @@
 import React from "react";
-import { BsThreeDots } from "react-icons/all";
+import { BsThreeDots } from "react-icons/bs";
 function TrendsCard() {
   const trends = [
     { tag: "#Covid19" },

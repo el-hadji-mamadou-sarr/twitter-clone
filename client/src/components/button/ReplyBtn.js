@@ -1,5 +1,5 @@
 import React from "react";
-import { FaRegComment } from "react-icons/all";
+import { FaRegComment } from "react-icons/fa";
 const ReplyBtn = ({ replies }) => {
   return (
     <div className="display-flex align-items-c tweet-btns__btn tweet-btns__reply">

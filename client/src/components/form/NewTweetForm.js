@@ -1,6 +1,8 @@
 import getFormData from "../../utils/getFormData";
 import { useSelector, useDispatch } from "react-redux";
-import { RiFileGifLine, GrEmoji, FiImage } from "react-icons/all";
+import { RiFileGifLine } from "react-icons/ri";
+import { GrEmoji} from "react-icons/gr";
+import {  FiImage } from "react-icons/fi";
 import Avatar from "../avatar/Avatar";
 import TextareaAutosize from "react-textarea-autosize";
 import { newTweet, newRetweet } from "../../redux/actions/tweetActions";

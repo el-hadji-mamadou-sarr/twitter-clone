@@ -4,11 +4,15 @@ import { useLocation, Link } from "react-router-dom";
 import sidebarLinks from "../../utils/sidebarLinks";
 import SidebarCard from "../card/SidebarCard";
 import SidebarModal from "../modal/SidebarModal";
+import { UserData } from "../../utils/test-data";
 
 function SidebarLeft() {
   const location = useLocation();
   const pathWithoutParams = location.pathname.split("/")[1];
-  const { username } = useSelector((state) => state.currentProfile.data);
+  //const { username } = useSelector((state) => state.currentProfile.data) ;
+
+  //test
+  const { username } = UserData;
   return (
     <aside className="sidebar-left display-flex justify-content-sb ">
       {sidebarLinks.map((link, linkIdx) => (

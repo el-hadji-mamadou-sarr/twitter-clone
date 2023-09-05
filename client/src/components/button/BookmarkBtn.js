@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineBookmarkBorder, MdOutlineBookmark } from "react-icons/all";
+import { MdOutlineBookmarkBorder, MdOutlineBookmark } from "react-icons/md";
 import {
   addBookmark,
   removeBookmark,

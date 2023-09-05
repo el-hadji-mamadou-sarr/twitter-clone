@@ -3,7 +3,9 @@ import TextareaAutosize from "react-textarea-autosize";
 import Avatar from "../avatar/Avatar";
 import { useSelector, useDispatch } from "react-redux";
 import { newReply } from "../../redux/actions/tweetActions";
-import { RiFileGifLine, GrEmoji, FiImage } from "react-icons/all";
+import { RiFileGifLine } from "react-icons/ri";
+import {  GrEmoji } from "react-icons/gr";
+import { FiImage } from "react-icons/fi";
 import { useParams } from "react-router";
 
 function CommentForm() {

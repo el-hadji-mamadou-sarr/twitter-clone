@@ -8,13 +8,16 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
     <Route
       {...rest}
       render={(props) =>
-        data ? (
-          <Layout>
-            <Component {...props} />
-          </Layout>
-        ) : (
-          <Redirect to="/signin" />
-        )
+        // data ? (
+        //   <Layout>
+        //     <Component {...props} />
+        //   </Layout>
+        // ) : (
+        //   <Redirect to="/signin" />
+        // )
+        <Layout>
+          <Component {...props}/>
+        </Layout>
       }
     />
   );

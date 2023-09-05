@@ -1,13 +1,11 @@
-import {
-  RiHome4Line,
-  FiHash,
-  FiMail,
-  FaTwitter,
-  IoMdNotificationsOutline,
-  BsBookmark,
-  CgProfile,
-} from "react-icons/all";
 
+import { RiHome4Line } from "react-icons/ri";
+import { FiHash } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
+import { FaTwitter } from "react-icons/fa";
+import { BsBookmark } from "react-icons/bs";
+import { CgProfile } from "react-icons/cg";
+import {IoMdNotificationsOutline} from "react-icons/io";
 const sidebarLinks = [
   {
     text: "",

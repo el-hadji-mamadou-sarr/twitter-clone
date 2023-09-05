@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineRetweet } from "react-icons/all";
+import { AiOutlineRetweet } from "react-icons/ai";
 import { useDispatch } from "react-redux";
 import { newRetweet } from "../../redux/actions/tweetActions";
 const RetweetBtn = ({ id, retweets }) => {

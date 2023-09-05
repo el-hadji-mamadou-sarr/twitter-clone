@@ -1,6 +1,8 @@
 import React from "react";
 import FollowBtn from "../button/FollowBtn";
-import { BsCalendar3, ImLink, MdLocationOn } from "react-icons/all";
+import { BsCalendar3 } from "react-icons/bs";
+import { ImLink } from "react-icons/im";
+import {MdLocationOn } from "react-icons/md";
 import EditBtn from "../button/EditBtn";
 
 import getDate from "../../utils/getDate";

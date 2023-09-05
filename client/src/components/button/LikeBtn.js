@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineHeart, AiFillHeart } from "react-icons/all";
+import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import { useDispatch, useSelector } from "react-redux";
 import { likeTweet, unlikeTweet } from "../../redux/actions/tweetActions";
 

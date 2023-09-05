@@ -1,11 +1,17 @@
 import React from "react";
-import { BsThreeDots } from "react-icons/all";
+import { BsThreeDots } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleSidebarModal } from "../../redux/slicers/modalSlicer";
 import Avatar from "../avatar/Avatar";
+import { UserData } from "../../utils/test-data";
 function SidebarCard() {
-  const { data } = useSelector((state) => state.currentProfile);
-  const { fname, username, avatar } = data;
+  // const { data } = useSelector((state) => state.currentProfile);
+  // const { fname, username, avatar } = data;
+  
+  //test
+  const { fname, username, avatar } = UserData;
+
+  
   const dispatch = useDispatch();
   return (
     <div

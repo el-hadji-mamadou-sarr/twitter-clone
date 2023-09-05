@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { BsThreeDots } from "react-icons/all";
+import { BsThreeDots } from "react-icons/bs";
 import getTweetTime from "../../../utils/getTweetTime";
 import { toggleTweetEditorModal } from "../../../redux/slicers/modalSlicer";
 
